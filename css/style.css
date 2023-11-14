@@ -32,7 +32,11 @@
 }
 
 .sidebar{
-    width: 100px;
+    width: 120px;
     background-color: blue;
     height: calc(100vh);
+}
+
+.text-font{
+    font-size: 14px;
 }

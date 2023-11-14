@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans&family=Roboto&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Open+Sans&family=Roboto&family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Dashboard</title>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-10 col-lg-8">
                     <div class="input-group py-2 ">
-                        <span class="input-group-text  border-0 bg-search_bar" id="basic-addon1"><i class="fa-solid fa-magnifying-glass fa-sm"></i></span>
+                        <span class="input-group-text border-0 bg-search_bar" id="basic-addon1"><i class="fa-solid fa-magnifying-glass fa-sm"></i></span>
                         <input type="text" class="form-control border-0 bg-search_bar" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                       </div>
                 </div>
@@ -37,7 +37,15 @@
     <main>
         <section>
             <div class="contaner-fluid">
-                <div class="sidebar"></div>
+                <div class="sidebar p-4 text-white d-flex flex-column justify-content-between">
+                    <div>
+                   <div > <i class="fa-solid fa-house fa-sm py-3"></i><span class="ms-2 text-font d-none d-lg-inline">Home</span></div>
+                   <div> <i class="fa-solid fa-chart-simple fa-sm py-3 me-1"></i><span class="ms-2 text-font d-none d-lg-inline">Stats</span></div>
+                   <div> <i class="fa-solid fa-signal fa-sm py-3"></i><span class="ms-2 text-font d-none d-lg-inline">Signal</span></div>
+                   </div>
+                   <div ><i class="fa-solid fa-gear fa-sm py-3 "></i><span class="ms-2 text-font d-none d-lg-inline">Admin</span></div>
+
+                </div>
                 <div class="main"></div>
             </div>
         </section>
