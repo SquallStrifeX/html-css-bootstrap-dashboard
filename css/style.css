@@ -31,12 +31,62 @@
     height: 50px;
 }
 
+.height_main{
+    height: 100px
+}
+
+.bg-main{
+    background-color: rgba(27,114,232,255)
+}
+
 .sidebar{
     width: 120px;
-    background-color: blue;
-    height: calc(100vh);
+    background-color: rgba(16,39,61,255);
+    height: calc(100vh - 50px);
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.main{
+    width: calc(100vw - 120px);
+    height: calc(100vh - 50px);
 }
 
 .text-font{
     font-size: 14px;
+    
 }
+
+.suggerimenti{
+    background-color: rgba(22,91,186,255);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.font-size_20{
+    font-size: 30px
+}
+
+
+@media  screen and (max-width: 992px) {
+    .sidebar{
+        width: 60px;
+    }
+
+    .main{
+        width: calc(100vw - 60px);
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .height_main{
+        height: 250px;
+    }
+  
+}
+
+
+
+
+
