@@ -56,6 +56,10 @@
     
 }
 
+.text-font-11{
+    font-size: 11px;
+}
+
 .suggerimenti{
     background-color: rgba(22,91,186,255);
     color: white;
@@ -66,6 +70,19 @@
 
 .font-size_20{
     font-size: 30px
+}
+
+.img-avatar{
+    width: 20px;
+}
+
+.width_80{
+    width: 80%;
+}
+
+.button-table{
+    font-size: 10px;
+    padding: 0px 2px;
 }
 
 
