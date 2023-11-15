@@ -85,6 +85,15 @@
     padding: 0px 2px;
 }
 
+.hover-sidebar:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    
+
+}
+
+.offcanvas-width{
+    width: 70%;
+}
 
 @media  screen and (max-width: 992px) {
     .sidebar{
@@ -93,6 +102,10 @@
 
     .main{
         width: calc(100vw - 60px);
+    }
+
+    .offcanvas-width{
+        width: 100%;
     }
 }
 
